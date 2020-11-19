@@ -1,0 +1,25 @@
+body {
+    margin: 40px;
+}
+
+.card{
+    background-color: red;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+}
+
+.deck {
+    width: 600px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(6, 150px);
+    grid-template-rows: 150px 150px 150px 150px;
+    grid-auto-flow: column;
+}
+
+.class:nth-child(even) {
+    background-color: #ccc;
+    color: #000;
+}
